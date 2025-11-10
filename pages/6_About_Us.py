@@ -1,8 +1,6 @@
 import streamlit as st
-from core.auth import require_password
 
 st.set_page_config(page_title="About Us", page_icon="ℹ️", layout="wide")
-require_password()
 
 st.title("ℹ️ About Us")
 st.markdown("""

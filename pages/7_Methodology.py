@@ -1,8 +1,7 @@
 import streamlit as st
-from core.auth import require_password
 
 st.set_page_config(page_title="Methodology", page_icon="🧩", layout="wide")
-require_password()
+
 
 st.title("🧩 Methodology")
 st.markdown("""

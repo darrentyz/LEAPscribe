@@ -26,7 +26,7 @@ if st.button("Ingest & Analyze") and uploads:
     ---
     {corpus_sample}
     ---
-    Return only bullet questions (max 10).
+    Return only bullet questions (can be 0, max 3).
     """
     qs = chat([{"role":"user","content":prompt}])
     st.session_state["missing_questions_text"] = qs

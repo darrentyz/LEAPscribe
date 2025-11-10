@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="LEAPscribe — Case Study Wizard", page_icon="🧙🏼‍♂️", layout="wide")
 
 
-st.title("🪄 LEAPscribe — Case Study Wizard")
+st.title("🧙🏼‍♂️ LEAPPY — WOG Finance and Internal Audit Case Study Wizard")
 st.markdown("""
 Welcome! This wizard will guide you from **uploads → AI analysis → fill missing info → polished case study → generated visuals**.
 Use the sidebar to navigate steps.

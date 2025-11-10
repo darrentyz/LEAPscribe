@@ -29,7 +29,6 @@ SECTION_ORDER = [
     "Benefits & Impact",
     "Key Learning Points",
     "Point of Contact",
-    "Suggested Visuals / Diagrams",
 ]
 
 def parse_sections(md: str):

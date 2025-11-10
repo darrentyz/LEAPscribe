@@ -1,0 +1,12 @@
+streamlit>=1.37
+openai>=1.37
+pandas>=2.2
+python-dotenv>=1.0
+tiktoken
+faiss-cpu
+pydantic>=2.8
+PyPDF2
+python-docx
+pillow
+altair
+graphviz

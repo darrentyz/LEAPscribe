@@ -16,13 +16,13 @@ st.subheader("Cover Illustration")
 style = st.selectbox("Style", ["flat illustration", "isometric", "line art", "minimal infographic"], index=0)
 theme = st.text_input("Theme keywords", value="public finance, collaboration, knowledge sharing, AI assistance, case studies")
 
-if st.button("Generate Cover Image (1920x1080)"):
+if st.button("Generate Background Banner"):
     prompt = f"A {style} depicting {theme}. Clean, professional, government context, minimal color palette."
     try:
         png_bytes = generate_image(prompt, size="1920x1080")
         st.image(png_bytes, caption="Generated Cover", use_column_width=True)
         st.session_state["cover_image"] = png_bytes
-        st.success("✅ Cover image generated.")
+        st.success("✅ Banner generated.")
     except Exception as e:
         st.error(str(e))
 

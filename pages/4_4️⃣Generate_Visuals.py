@@ -19,7 +19,7 @@ theme = st.text_input("Theme keywords", value="public finance, collaboration, kn
 if st.button("Generate Background Banner"):
     prompt = f"A {style} depicting {theme}. Clean, professional, government context, minimal color palette."
     try:
-        png_bytes = generate_image(prompt, size="1920x1080")
+        png_bytes = generate_image(prompt, size="1536x1024")
         st.image(png_bytes, caption="Generated Cover", use_column_width=True)
         st.session_state["cover_image"] = png_bytes
         st.success("✅ Banner generated.")
